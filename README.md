@@ -1,7 +1,7 @@
 # Jobsheet1-1
 JARINGAN SENSOR NIRKABEL MENGGUNAKAN ESP-NOW
 
- ALAT DAN BAHAN
+Alat dan bahan
 1) ESP32
 2) Breadboard
 3) Kabel jumper
@@ -11,33 +11,25 @@ JARINGAN SENSOR NIRKABEL MENGGUNAKAN ESP-NOW
 LANGKAH PERCOBAAN
 
 A. Memperoleh MAC Address ESP32 Receiver
-    Dalam percobaan dan program ini kami mendapatkan MAC adrress pada ESP32 yang kami gunakan.
+    Dalam percobaan program ini mendapatkan MAC adrress pada ESP32 yang digunakan.
     
 B. ESP-NOW One-Way Point-to-Point Communication
+
     1. Hasil dari program sender
-       
-    
     
 ![b 1](https://user-images.githubusercontent.com/121172074/209970768-751c138f-4682-4ece-ac6d-a83ea3799e59.png)
  
  
- 
     2. Hasil dari receiver
-    
     
 ![b 2](https://user-images.githubusercontent.com/121172074/209970925-370cadd3-f711-4311-9a14-39136b8445e5.png)
     
     
-    
    Packet Loss
-   
-   
    
 ![packet loss](https://user-images.githubusercontent.com/121172074/210150132-c86380cb-c43a-411d-b449-22b35c97f771.JPG)
 
    
-   
-    
     Ketinggian 1 m
     a. Jarak 1 m
      Sender
@@ -307,7 +299,7 @@ C. One-Way, One-to-Many Communication
       
       
 D.One-Way, Many-to-One Communication
-    Di dalam mode ini, Receiver harus dapat mengidentifikasi setiap MAC Address unik dari Sender. Namun, untuk dapat membaca MAC Address yang berbeda cukup rumit dan butuh sedikit trik. Sehingga, untuk membuatnya lebih mudah, masing-masing Sender akan diberikan ID unik, agar Receiver dapat lebih mudah mengidentifikasi Sender.
+    Pada mode ini, receiver harus bisa mengidentifikasi setiap MAC Address unik dari Sender. Namun, untuk dapat membaca MAC Address yang berbeda cukup rumit dan butuh sedikit trik. Sehingga, untuk membuatnya lebih mudah, masing-masing Sender akan diberikan ID unik, agar Receiver dapat lebih mudah mengidentifikasi Sender.
     
 MAC Sender 1 (Satria & Adika) : 24:6F:28:02:C3:1C MAC Sender 2 (Fariz & Josandy) : 24:6F:28:95:D5:80 MAC Receiver (Ayudya & Salist) : 24:6F:28:2B:6D:D8
 
